@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berita - Desa Cicadas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="https://images.pexels.com/photos/33248691/pexels-photo-33248691.jpeg" alt="Logo Kabupaten" class="logo-img">
+                <span class="nav-title">Desa Cicadas</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link active">Beranda</a>
+                <a href="sejarah.html" class="nav-link">Sejarah</a>
+                <a href="visi-misi.html" class="nav-link">Visi & Misi</a>
+                <a href="berita.html" class="nav-link">Berita</a>
+                <a href="struktur.html" class="nav-link">Struktur</a>
+                <a href="media.html" class="nav-link">Media</a>
+                <a href="kontak.html" class="nav-link">Kontak</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.pexels.com/photos/33239331/pexels-photo-33239331.jpeg') center/cover; color: white;">
+        <div class="container">
+            <h1 class="page-title" data-aos="fade-up">Berita Desa</h1>
+            <p class="page-subtitle" data-aos="fade-up" data-aos-delay="200">Informasi Terkini Kegiatan dan Pembangunan Desa</p>
+        </div>
+    </section>
+
+    <!-- News Filter -->
+    <section class="news-filter">
+        <div class="container">
+            <div class="filter-tabs" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="pembangunan">Pembangunan</button>
+                <button class="filter-btn" data-filter="kesehatan">Kesehatan</button>
+                <button class="filter-btn" data-filter="ekonomi">Ekonomi</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Content -->
+    <section class="news-content">
+        <div class="container">
+            <div class="news-grid" data-aos="fade-up" data-aos-delay="200">
+                
+                <article class="news-card" data-category="pembangunan">
+                    <div class="news-image">
+                        <img src="https://images.pexels.com/photos/33240428/pexels-photo-33240428.jpeg" alt="Pembangunan Jalan">
+                        <div class="news-badge pembangunan">Pembangunan</div>
+                    </div>
+                    <div class="news-content-card">
+                        <div class="news-meta">
+                            <span class="news-date"><i class="fas fa-calendar"></i> 15 September 2024</span>
+                        </div>
+                        <h3 class="news-title">Perbaikan Jalan Desa Tahap II Dimulai</h3>
+                        <p class="news-excerpt">
+                            Pemerintah desa memulai tahap kedua perbaikan jalan desa sepanjang 1.5 km 
+                            untuk meningkatkan akses transportasi warga.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="news-card" data-category="kesehatan">
+                    <div class="news-image">
+                        <img src="https://images.pexels.com/photos/33240620/pexels-photo-33240620.jpeg" alt="Posyandu">
+                        <div class="news-badge kesehatan">Kesehatan</div>
+                    </div>
+                    <div class="news-content-card">
+                        <div class="news-meta">
+                            <span class="news-date"><i class="fas fa-calendar"></i> 19 Juli 2025</span>
+                        </div>
+                        <h3 class="news-title">Posyandu Aktif Laksanakan Penyuluhan Gizi</h3>
+                        <p class="news-excerpt">
+                            Kegiatan posyandu rutin dilaksanakan dengan fokus pada penyuluhan gizi 
+                            dan pemeriksaan kesehatan ibu dan anak.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="news-card" data-category="kesehatan">
+                    <div class="news-image">
+                        <img src="https://images.pexels.com/photos/33241257/pexels-photo-33241257.jpeg" alt="Vaksinasi">
+                        <div class="news-badge kesehatan">Kesehatan</div>
+                    </div>
+                    <div class="news-content-card">
+                        <div class="news-meta">
+                            <span class="news-date"><i class="fas fa-calendar"></i> 30 Juli 2025</span>
+                        </div>
+                        <h3 class="news-title">Cek Kesehatan Gratis Warga Cicadas: Kolaborasi Puskesmas Cisolok dan Mahasiswa KKN Nusa Putra 2025</h3>
+                        <p class="news-excerpt">
+                            Puluhan warga Desa Cicadas antusias mengikuti cek kesehatan gratis di Madrasah Miftahus Salam pada 30 Juli 2025. Kegiatan ini merupakan hasil kerja sama antara Puskesmas Cisolok dan mahasiswa KKN Universitas Nusa Putra.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="news-card" data-category="ekonomi">
+                    <div class="news-image">
+                        <img src="https://images.pexels.com/photos/33247743/pexels-photo-33247743.jpeg" alt="BUMDes">
+                        <div class="news-badge ekonomi">Ekonomi</div>
+                    </div>
+                    <div class="news-content-card">
+                        <div class="news-meta">
+                            <span class="news-date"><i class="fas fa-calendar"></i> 5 Januari 2025</span>
+                        </div>
+                        <h3 class="news-title">BUMDes Berhasil Kelola Hasil Tani dengan Baik</h3>
+                        <p class="news-excerpt">
+                            Badan Usaha Milik Desa berhasil meningkatkan pendapatan petani lokal 
+                            melalui pengelolaan hasil tani yang efektif.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="news-card" data-category="pembangunan">
+                    <div class="news-image">
+                        <img src="https://images.pexels.com/photos/33247797/pexels-photo-33247797.jpeg" alt="MCK">
+                        <div class="news-badge pembangunan">Pembangunan</div>
+                    </div>
+                    <div class="news-content-card">
+                        <div class="news-meta">
+                            <span class="news-date"><i class="fas fa-calendar"></i> 1 Januari 2025</span>
+                        </div>
+                        <h3 class="news-title">Pembangunan MCK Umum Dimulai</h3>
+                        <p class="news-excerpt">
+                            Pembangunan Mandi Cuci Kakus (MCK) umum untuk meningkatkan sanitasi 
+                            dan kesehatan masyarakat telah dimulai.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="news-card" data-category="kesehatan">
+                    <div class="news-image">
+                        <img src="https://images.pexels.com/photos/33248414/pexels-photo-33248414.jpeg" alt="Edukasi Stunting">
+                        <div class="news-badge kesehatan">Kesehatan</div>
+                    </div>
+                    <div class="news-content-card">
+                        <div class="news-meta">
+                            <span class="news-date"><i class="fas fa-calendar"></i> 19 Juli 2025</span>
+                        </div>
+                        <h3 class="news-title">Mahasiswa KKN Universitas Nusa Putra 2025 Gandeng Posyandu Mekar Harapan Gelar Edukasi Pencegahan Stunting</h3>
+                        <p class="news-excerpt">
+                            Mahasiswa KKN Universitas Nusa Putra 2025 bersama Posyandu Mekar Harapan mengadakan edukasi pencegahan stunting pada Kamis, 31 Juli 2025. Kegiatan ini menyasar ibu balita dengan materi seputar gizi seimbang, pentingnya ASI, serta pola makan sehat.
+                        </p>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+   <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmmI6r6cEiXjR7bnTfmbMjv_eDd6jMMBChgA&usqp=CAU" alt="Logo">
+                        <span>Desa Cicadas</span>
+                    </div>
+                    <p class="footer-desc">Desa Asri dan Sejahtera di Kecamatan Cisolok, Kabupaten Sukabumi</p>
+                    <div class="social-links">
+                        <a href="https://www.youtube.com/@info.desacicadas" target="_blank" class="social-link">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Menu</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="sejarah.html">Sejarah</a></li>
+                        <li><a href="visi-misi.html">Visi & Misi</a></li>
+                        <li><a href="struktur.html">Struktur</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Kontak</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Jl. Raya Cikotok KM 32, Kampung Cicadas</p>
+                        <p><i class="fas fa-phone"></i> +62 85846548934</p>
+                        <p><i class="fas fa-clock"></i> Senin-Jumat: 08:00-16:00 WIB</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Desa Cicadas. Semua hak dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
